@@ -1,0 +1,122 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+</style>* {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+body {
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* shared style */
+
+.title {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btn-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    padding: 10px 24px;
+}
+
+.common-text {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+
+
+/* single style */
+
+/* nav style */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 30px 50px;
+    max-width: 1440px;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+}
+
+.menu {
+    margin-right: 34px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* banner style */
+
+.banner-conteiner {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: left;
+    max-width: 580px;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.banner-content .common-text {
+    margin-top: 0;
+}
+
+
+.banner-img {
+    background-image: url(./images/Circle\ design.svg);
+}
+
+.banner-img>img {
+    width: 440px;
+}
+
+/* sponsor style */
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
